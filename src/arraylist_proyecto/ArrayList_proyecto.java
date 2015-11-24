@@ -24,12 +24,18 @@ public class ArrayList_proyecto {
         u.setNombre("JUAN");
         u.setApellido("PEREZ");
         lista.add(u);
-        for (int i = 0; i < lista.size(); i++) {
+        /*for (int i = 0; i < lista.size(); i++) {
             System.out.println("LISTA" + lista.get(i).getId());
             System.out.println("LISTA" + lista.get(i).getNombre());
             System.out.println("LISTA" + lista.get(i).getApellido());
 
+        }*/
+        for(Usuario user:lista){
+            System.out.println("USUARIO:"+user.getId());
+            System.out.println("USUARIO:"+user.getNombre());
+            System.out.println("USUARIO:"+user.getApellido());
         }
+        
         //ELIMINAR ELEMENTO PEDRITO
         //lista.remove(1);
 

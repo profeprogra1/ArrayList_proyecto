@@ -5,17 +5,17 @@
  */
 package arraylist_proyecto;
 
-/**
- *
- * @author ricardo
- */
+import java.util.ArrayList;
 public class ArrayList_proyecto {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ArrayList lista=new ArrayList();
+        lista.add("JUANITO");
+        lista.add("PEDRITO");
+        lista.add("CARLITOS");
+        //OBTENER CANTIDAD DE ELEMENTOS
+        System.out.println("TOTAL:"+lista.size());
+        //OBTENER ELEMENTO DE POSICION 1
+        System.out.println("POS 1:"+lista.get(1));
+        
     }
-    
 }
